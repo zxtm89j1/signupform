@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMOGEN</title>
+
+    <script src="./script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="mainTitle">
+        <h1>
+          <div class="titleClass"><span>IMO</span><span>GEN</span></div>
+        </h1>
+      </div>
+
+      <div class="mainContent">
+        <div class="mainContentChild">
+          This is not a real online service. You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </div>
+
+        <div class="mainContentChild">Sign up now to get started!</div>
+        <div class="mainContentChild mainContentChild2">
+          You know you want to.
+        </div>
+
+        <div>
+          <form id="form">
+            <div class="formContent">
+              <h2>Let's do this!</h2>
+
+              <div class="inputs">
+                <div class="rows">
+                  <div class="data">
+                    <label for="firstName">FIRST NAME</label>
+                    <input
+                      type="text"
+                      class="inputFirstName"
+                      id="inputFirstName"
+                    />
+                    <span class="spanFName" id="spanFName"></span>
+                  </div>
+
+                  <div class="data data2">
+                    <label for="lastName">LAST NAME</label>
+                    <input
+                      type="text"
+                      class="inputLastName"
+                      id="inputLastName"
+                    />
+                    <span class="spanLName" id="spanLName"></span>
+                  </div>
+                </div>
+
+                <div class="rows">
+                  <div class="data">
+                    <label for="email">EMAIL</label>
+                    <input type="text" class="inputEmail" id="inputEmail" />
+                    <span class="spanEmail" id="spanEmail"></span>
+                  </div>
+
+                  <div class="data data2">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="number" class="inputPhone" id="inputPhone" />
+                    <span class="spanPhone" id="spanPhone"></span>
+                  </div>
+                </div>
+
+                <div class="rows">
+                  <div class="data">
+                    <label for="password">PASSWORD</label>
+                    <input
+                      type="password"
+                      class="inputPassword"
+                      id="inputPassword"
+                    />
+                    <span class="spanPassword" id="spanPassword"></span>
+                  </div>
+
+                  <div class="data data2">
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input
+                      type="password"
+                      class="inputConfirm"
+                      id="inputConfirm"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn" type="submit">Sign Up</button>
+          </form>
+          <div class="accountSignIn">
+            Already have an account? <span>Sign in</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
