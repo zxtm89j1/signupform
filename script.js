@@ -34,11 +34,11 @@ let submit = () => {
     } else {
       window.location.reload();
     }
-
-    fName();
-    lName();
-    passwordVal();
   }
+
+  fName();
+  lName();
+  passwordVal();
 };
 
 form.addEventListener("submit", (e) => {
